@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 import { Colors } from "./colors";
 
 const REGULAR_FONT = "Ubuntu_400Regular";
-const BOLD_FONT = "Ubuntu__700Bold";
+const BOLD_FONT = "Ubuntu_700Bold";
 
 export const TextStyles = StyleSheet.create({
   copySmall: {
@@ -21,16 +21,13 @@ export const TextStyles = StyleSheet.create({
   headerSmall: {
     fontSize: 16,
     fontFamily: BOLD_FONT,
-    fontWeight: 700,
   },
   header: {
     fontSize: 20,
     fontFamily: BOLD_FONT,
-    fontWeight: 700,
   },
   headerBig: {
     fontSize: 24,
     fontFamily: BOLD_FONT,
-    fontWeight: 700,
   },
 });
