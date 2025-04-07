@@ -1,4 +1,4 @@
-enum Colors {
+export enum Colors {
   "backgroundGrey" = "#131616",
   "lightBackgroundGrey" = "#1B2020",
   "primaryColor" = "#46B6B5",
