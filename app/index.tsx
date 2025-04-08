@@ -18,7 +18,9 @@ export default function Index() {
         date="12 kwietnia"
         time="10:00"
         duration={2}
-      ></LessonCard>
+      />
+
+      <Button onClick={() => {}} fullWidth={true} />
     </View>
   );
 }
